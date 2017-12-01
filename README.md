@@ -23,4 +23,6 @@ If you want to run the Jekyll container with an interactive shell
 docker run -it -v $(pwd)/<path github-page-repo>:/home/mypage -w /home/mypage -p 4000:4000 wechris-jekyll /bin/sh
 ```
 
+Whenever you commit to the repository, GitHub Pages will run Jekyll to rebuild the pages in your site, from the content in your Markdown files.
+
 ![Docker](./img/jekyll-docker.jpg "Title is optional")
