@@ -1,9 +1,9 @@
 # A Docker image for Github's Jekyll
 
 A Jekyll Docker image to build and view github-pages on my MacOS X.
+:whale:
 
 ## Introduction
-============
 
 Build and run your Jekyll github-pages in a Docker container.
 
