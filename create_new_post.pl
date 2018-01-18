@@ -68,8 +68,7 @@ my @values = split(',', $tags);
   }
 print FILE "author: wechris\n";
 print FILE "image:\n";
-print FILE "  path:\n";
-print FILE "  $imgfoldershort/postpreview.jpg\n";
+print FILE "  path: $imgfoldershort/postpreview.jpg\n";
 print FILE "  width: 629\n";
 print FILE "  height: 600\n";
 print FILE "---\n";
